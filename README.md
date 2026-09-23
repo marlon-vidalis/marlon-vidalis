@@ -20,25 +20,14 @@ Sou o Marlon, graduando em Geografia e trabalho com análise de dados geoespacia
 ### Stacks
 Essas são algumas das tecnologias e ferramentas que costumo usar no meu dia a dia:
 
-<table border="0">
-<tr>
-<td align="center" width="90">
-<img src="https://skillicons.dev/icons?i=python" height="50"/><br/>Python
-</td>
-<td align="center" width="90">
-<img src="https://skillicons.dev/icons?i=linux" height="50"/><br/>Linux
-</td>
-<td align="center" width="90">
-<img src="https://skillicons.dev/icons?i=postgres" height="50"/><br/>PostgreSQL
-</td>
-<td align="center" width="90">
-<img src="https://skillicons.dev/icons?i=git" height="50"/><br/>Git
-</td>
-<td align="center" width="90">
-<img src="https://qgis.org/styleguide/visual/qgis-icon32.svg" height="44"/><br/>QGIS
-</td>
-</tr>
-</table>
+<p align="center">
+<img src="https://skillicons.dev/icons?i=python,linux,postgres,git" height="50"/>
+&nbsp;&nbsp;
+<img src="https://qgis.org/styleguide/visual/qgis-icon32.svg" height="44"/>
+</p>
+<p align="center">
+Python&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Linux&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PostgreSQL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Git&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;QGIS
+</p>
 
 ### 📁 Projetos
 **[> Estudos Técnicos (Wiki)](https://github.com/marlon-vidalis/estudos-tecnicos/wiki)**
