@@ -4,7 +4,7 @@
 
 ---
 
-## 📚 Projetos
+## Projetos
 
 **Concluído**
 - [Estudos Técnicos — Wiki](https://github.com/marlon-vidalis/estudos-tecnicos/wiki) — material de estudo em Python, Linux e geoprocessamento, organizado em módulos progressivos.
@@ -15,7 +15,7 @@
 
 ---
 
-## 🛠️ Stack
+## Stack
 
 `Python` · `QGIS` · `Linux (Debian)` · `Git`
 
@@ -23,4 +23,6 @@
 
 ## Contato
 
-[github.com/marlon-vidalis](https://github.com/marlon-vidalis)
+[![GitHub](https://img.shields.io/badge/GitHub-marlon--vidalis-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/marlon-vidalis)
+
+[![Gmail](https://img.shields.io/badge/Gmail-vidalis.marlon-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vidalis.marlon@gmail.com)
