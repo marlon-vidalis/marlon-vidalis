@@ -20,8 +20,7 @@ Sou o Marlon, graduando em Geografia e trabalho com análise de dados geoespacia
 ### Stacks
 Essas são algumas das tecnologias e ferramentas que costumo usar no meu dia a dia:
 
-<p align="center">
-<table>
+<table border="0">
 <tr>
 <td align="center" width="90">
 <img src="https://skillicons.dev/icons?i=python" height="50"/><br/>Python
@@ -40,7 +39,6 @@ Essas são algumas das tecnologias e ferramentas que costumo usar no meu dia a d
 </td>
 </tr>
 </table>
-</p>
 
 ### 📁 Projetos
 **[> Estudos Técnicos (Wiki)](https://github.com/marlon-vidalis/estudos-tecnicos/wiki)**
