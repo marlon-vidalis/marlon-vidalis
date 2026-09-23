@@ -1,62 +1,61 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header" width="100%" style="margin: 0; padding: 0;"/>
+
 # Olá! Sou Marlon Vidalis 👋
 
-> Graduando em Geografia (Bacharelado) na UFFS | Entusiasta de Software Livre  
-> Foco em Geoprocessamento, Análise de Imagens Orbitais e desenvolvimento de ferramentas GeoTech.
+<div style="border-left: 6px solid #202122; background-color: #20212215; padding: 16px; border-radius: 0 8px 8px 0;">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header" width="100%"/>
+- 🎓 Graduando em Geografia (Bacharelado) na UFFS  
+- 🌍 Foco em Geoprocessamento, Análise de Imagens Orbitais e desenvolvimento de ferramentas GeoTech
+- 🐧 Entusiasta de Software Livre 
 
----
+</div>
 
-## 🛠️ Tech Stack & Ferramentas
+## Tech Stack & Ferramentas
 
-<table>
-  <tr>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="45" height="45"/>
-      <br><b>Python</b>
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="45" height="45"/>
-      <br><b>Linux</b>
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="45" height="45"/>
-      <br><b>SQL</b>
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/qgis/qgis-original.svg" width="45" height="45"/>
-      <br><b>QGIS</b>
-    </td>
-    <td align="center" width="90">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="45" height="45"/>
-      <br><b>Git</b>
-    </td>
-  </tr>
-</table>
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
 
----
+<div style="border: 3px solid #0144b020; border-radius: 8px; padding: 12px; text-align: center; min-width: 90px; background-color: #0144b030;">
+  <a href="https://www.python.org/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" alt="Python"/>
+  </a>
+  <br><b>Python</b>
+</div>
 
-## 📚 Projeto em Destaque
+<div style="border: 3px solid #ffe22320; border-radius: 8px; padding: 12px; text-align: center; min-width: 90px; background-color: #ffe22330;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" height="40" alt="Linux"/>
+  <br><b>Linux</b>
+</div>
 
-<div style="border-left: 6px solid #3776ab; background-color: #3776ab15; padding: 16px; border-radius: 0 8px 8px 0;">
+<div style="border: 3px solid #7db7f620; border-radius: 8px; padding: 12px; text-align: center; min-width: 90px; background-color: #7db7f630;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" height="40" alt="PostgreSQL"/>
+  <br><b>PostgreSQL</b>
+</div>
 
-### 🗺️ [Estudos Técnicos (Wiki)](https://github.com/marlon-vidalis/estudos-tecnicos/wiki)
-> Uma wiki pessoal e organizada sobre programação, sistemas e tecnologias. Documentação progressiva de Python, Linux e Geoprocessamento, criada para consolidar o aprendizado e servir como referência.
+<div style="border: 3px solid #58963220; border-radius: 8px; padding: 12px; text-align: center; min-width: 90px; background-color: #58963230;">
+  <img src="https://qgis.org/styleguide/visual/qgis-icon32.svg" width="40" height="40" alt="QGIS"/>
+  <br><b>QGIS</b>
+</div>
+
+<div style="border: 3px solid #F0503220; border-radius: 8px; padding: 12px; text-align: center; min-width: 90px; background-color: #F0503230;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40" alt="Git"/>
+  <br><b>Git</b>
+</div>
 
 </div>
 
 ---
 
-## 📊 Estatísticas do GitHub
+## Projetos
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=marlon-vidalis&show_icons=true&theme=radical&hide_border=true" width="45%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=marlon-vidalis&layout=compact&theme=radical&hide_border=true" width="45%" />
-</p>
+<div style="border-left: 6px solid #3776ab; background-color: #3776ab15; padding: 16px; border-radius: 0 8px 8px 0;">
+
+### [Estudos Técnicos (Wiki)](https://github.com/marlon-vidalis/estudos-tecnicos/wiki)
+
+</div>
 
 ---
 
-## 📫 Contato
+## 💬 Contato
 
 <table>
   <tr>
@@ -73,4 +72,6 @@
   </tr>
 </table>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
+---
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%" style="margin: 0; padding: 0;"/>
