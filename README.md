@@ -12,35 +12,20 @@
 
 ## Tech Stack & Ferramentas
 
-<table border="0" style="border-collapse: collapse; border: none;">
-  <tr align="center">
-    <td width="120" style="padding: 10px;">
-      <a href="https://www.python.org/" target="_blank">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" alt="Python"/>
-      </a>
-      <br><b>Python</b>
-    </td>
-    <td width="120" style="padding: 10px;">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" height="40" alt="Linux"/>
-      <br><b>Linux</b>
-    </td>
-    <td width="120" style="padding: 10px;">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" height="40" alt="PostgreSQL"/>
-      <br><b>PostgreSQL</b>
-    </td>
-  </tr>
-  <tr align="center">
-    <td width="120" style="padding: 10px;">
-      <img src="https://qgis.org/styleguide/visual/qgis-icon32.svg" width="40" height="40" alt="QGIS"/>
-      <br><b>QGIS</b>
-    </td>
-    <td width="120" style="padding: 10px;">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40" alt="Git"/>
-      <br><b>Git</b>
-    </td>
-    <td width="120" style="padding: 10px;"></td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://www.python.org/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="48" height="48" alt="Python"/>
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="48" height="48" alt="Linux"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="48" height="48" alt="PostgreSQL"/>
+</p>
+<p align="center">
+  <img src="https://qgis.org/styleguide/visual/qgis-icon32.svg" width="48" height="48" alt="QGIS"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="48" height="48" alt="Git"/>
+</p>
 
 ---
 
@@ -56,20 +41,15 @@
 
 ## 💬 Contato
 
-<table>
-  <tr>
-    <td style="border: none;">
-      <a href="https://github.com/marlon-vidalis" target="_blank">
-        <img src="https://img.shields.io/badge/GitHub-marlon--vidalis-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" style="border-radius: 6px;"/>
-      </a>
-    </td>
-    <td style="border: none;">
-      <a href="mailto:vidalis.marlon@gmail.com" target="_blank">
-        <img src="https://img.shields.io/badge/Gmail-vidalis.marlon-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" style="border-radius: 6px;"/>
-      </a>
-    </td>
-  </tr>
-</table>
+<p align="left">
+  <a href="https://github.com/marlon-vidalis" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-marlon--vidalis-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" style="border-radius: 6px;"/>
+  </a>
+  &nbsp;
+  <a href="mailto:vidalis.marlon@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-vidalis.marlon-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" style="border-radius: 6px;"/>
+  </a>
+</p>
 
 ---
 
