@@ -4,7 +4,7 @@
   <img src="GIF/Earth.gif" width="25px" />
 </h1>
 
-<p align="center">
+<p>
   Sou <strong>Marlon</strong>, graduando em Geografia e trabalho com análise de dados geoespaciais.
 </p>
 
@@ -30,6 +30,17 @@
 
 ---
 
+### 💻 Linguagens mais usadas
+
+<p align="left">
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=marlon-vidalis&layout=normal&langs_count=6&hide_border=true&theme=default"
+    alt="Linguagens mais usadas"
+  />
+</p>
+
+---
+
 ### 📁 Projetos
 
 > **[Estudos Técnicos (Wiki)](https://github.com/marlon-vidalis/estudos-tecnicos/wiki)**
@@ -40,12 +51,12 @@
 
 <p align="left">
   <a href="https://github.com/marlon-vidalis">
-    <img src="https://skillicons.dev/icons?i=github" height="20" valign="middle" alt="GitHub" />
+    <img src="https://skillicons.dev/icons?i=github" height="32" valign="middle" alt="GitHub" />
     &nbsp;marlon-vidalis
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="mailto:vidalis.marlon@gmail.com">
-    <img src="https://skillicons.dev/icons?i=gmail" height="20" valign="middle" alt="Gmail" />
+    <img src="https://skillicons.dev/icons?i=gmail" height="32" valign="middle" alt="Gmail" />
     &nbsp;vidalis.marlon
   </a>
 </p>
