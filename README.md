@@ -25,24 +25,16 @@ Essas são algumas das tecnologias e ferramentas que costumo usar no meu dia a d
   <figure style="display:inline-block; text-align:center; margin: 0 10px;">
     <img src="https://skillicons.dev/icons?i=python" height="55" alt="Skill Icons"/>
     <figcaption>Python</figcaption>
-  </figure>
-  &nbsp;&nbsp;
-    <figure style="display:inline-block; text-align:center; margin: 0 10px;">
+  </figure><figure style="display:inline-block; text-align:center; margin: 0 10px;">
     <img src="https://skillicons.dev/icons?i=linux" height="55" alt="Skill Icons"/>
     <figcaption>Linux</figcaption>
-  </figure>
-  &nbsp;&nbsp;
-    <figure style="display:inline-block; text-align:center; margin: 0 10px;">
+  </figure><figure style="display:inline-block; text-align:center; margin: 0 10px;">
     <img src="https://skillicons.dev/icons?i=postgres" height="55" alt="Skill Icons"/>
     <figcaption>PostgreSQL</figcaption>
-  </figure>
-  &nbsp;&nbsp;
-    <figure style="display:inline-block; text-align:center; margin: 0 10px;">
+  </figure><figure style="display:inline-block; text-align:center; margin: 0 10px;">
     <img src="https://skillicons.dev/icons?i=git" height="55" alt="Skill Icons"/>
     <figcaption>Git</figcaption>
-  </figure>
-  &nbsp;&nbsp;
-  <figure style="display:inline-block; text-align:center; margin: 0 10px;">
+  </figure><figure style="display:inline-block; text-align:center; margin: 0 10px;">
     <img src="https://qgis.org/styleguide/visual/qgis-icon32.svg" height="48" alt="QGIS"/>
     <figcaption>QGIS</figcaption>
   </figure>
