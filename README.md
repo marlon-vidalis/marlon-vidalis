@@ -20,7 +20,7 @@ Sou o Marlon, graduando em Geografia e trabalho com análise de dados geoespacia
 ### Stacks
 Essas são algumas das tecnologias e ferramentas que costumo usar no meu dia a dia:
 
-<p align="center">
+<p>
 <img src="https://skillicons.dev/icons?i=python,linux,postgres,git" height="50"/>
 &nbsp;&nbsp;
 <img src="https://qgis.org/styleguide/visual/qgis-icon32.svg" height="44"/>
