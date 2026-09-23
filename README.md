@@ -1,56 +1,53 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=161b22,21262d,30363d&height=120&section=header" width="100%" style="margin: 0; padding: 0;"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e293b&height=150&section=header&text=Marlon%20Vidalis&fontColor=ffffff&fontSize=42&animation=fadeIn" width="100%"/>
 
-# Olá! Sou Marlon Vidalis 👋
+<div align="center">
 
-<div style="border-left: 6px solid #30363d; background-color: #161b22; padding: 16px; border-radius: 0 8px 8px 0;">
-
-- 🎓 Graduando em Geografia (Bacharelado) na UFFS  
-- 🌍 Foco em Geoprocessamento, Análise de Imagens Orbitais e desenvolvimento de ferramentas GeoTech  
-- 🐧 Entusiasta de Software Livre  
+### 🎓 Geógrafo em formação | 🌍 GeoTech | 🐧 Software Livre
 
 </div>
 
-## Tech Stack & Ferramentas
+<br>
 
-<p align="center">
-  <a href="https://www.python.org/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="48" height="48" alt="Python"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="48" height="48" alt="Linux"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="48" height="48" alt="PostgreSQL"/>
-</p>
-<p align="center">
-  <img src="https://qgis.org/styleguide/visual/qgis-icon32.svg" width="48" height="48" alt="QGIS"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="48" height="48" alt="Git"/>
-</p>
+<div style="border-left: 4px solid #58a6ff; background-color: #0d1117; padding: 18px 20px; border-radius: 0 10px 10px 0;">
 
----
-
-## Projetos
-
-<div style="border-left: 6px solid #388bfd; background-color: #161b22; padding: 16px; border-radius: 0 8px 8px 0;">
-
-### [Estudos Técnicos (Wiki)](https://github.com/marlon-vidalis/estudos-tecnicos/wiki)
+- 🎓 **Graduando em Geografia (Bacharelado)** — UFFS, Campus Erechim
+- 🌍 **Foco:** Geoprocessamento, Análise de Imagens Orbitais e desenvolvimento de ferramentas GeoTech
+- 🐧 **Entusiasta de Software Livre**
 
 </div>
 
----
+<br>
+
+## 🛠️ Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,linux,postgres,git" height="55"/>
+  &nbsp;&nbsp;
+  <img src="https://qgis.org/styleguide/visual/qgis-icon32.svg" height="48"/>
+</p>
+
+<br>
+
+## 📁 Projetos
+
+<div style="border-left: 4px solid #3fb950; background-color: #0d1117; padding: 18px 20px; border-radius: 0 10px 10px 0;">
+
+**[📖 Estudos Técnicos (Wiki)](https://github.com/marlon-vidalis/estudos-tecnicos/wiki)**
+Registro de anotações técnicas e estudos de geoprocessamento.
+
+</div>
+
+<br>
 
 ## 💬 Contato
 
-<p align="left">
-  <a href="https://github.com/marlon-vidalis" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-marlon--vidalis-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" style="border-radius: 6px;"/>
+<p align="center">
+  <a href="https://github.com/marlon-vidalis">
+    <img src="https://img.shields.io/badge/GitHub-marlon--vidalis-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
-  &nbsp;
-  <a href="mailto:vidalis.marlon@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-vidalis.marlon-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" style="border-radius: 6px;"/>
+  <a href="mailto:vidalis.marlon@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-vidalis.marlon-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 </p>
 
----
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=161b22,21262d,30363d&height=100&section=footer" width="100%" style="margin: 0; padding: 0;"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e293b&height=100&section=footer"/>
