@@ -1,53 +1,63 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e293b&height=150&section=header&text=Marlon%20Vidalis&fontColor=ffffff&fontSize=42&animation=fadeIn" width="100%"/>
+<h1 align="center">
+<img src="GIF/Hi.gif" width="30px" />
+𝐇𝐞𝐥𝐥𝐨, World!
+<img src="GIF/Earth.gif" width="25px"/>
+</h1>
 
-<div align="center">
+Sou o Marlon, graduando em Geografia e trabalho com análise de dados geoespaciais.
 
-### 🎓 Geógrafo em formação | 🌍 GeoTech | 🐧 Software Livre
+### Minhas áreas de foco e interesse são:
+- **Análise e interpretação de dados geoespaciais:** elaboração cartográfica, criação de mapas e cruzamento espacial de dados;
 
-</div>
+- **Engenharia de Dados e Automação:** construção de pipelines estruturados com arquitetura em camadas e auditoria de dados;
 
-<br>
+- **Geoprocessamento e Bancos de Dados Analíticos:** operação com SIG (QGIS/ ArcGis), PostgreSQL/PostGIS, DuckDB;
 
-<div style="border-left: 4px solid #58a6ff; background-color: #0d1117; padding: 18px 20px; border-radius: 0 10px 10px 0;">
+- **Python aplicado a geotecnologias:** uso de bibliotecas focadas em processamento e visualização de dados (Pandas, GeoPandas, Seaborn e Matplotlib);
 
-- 🎓 **Graduando em Geografia (Bacharelado)** — UFFS, Campus Erechim
-- 🌍 **Foco:** Geoprocessamento, Análise de Imagens Orbitais e desenvolvimento de ferramentas GeoTech
-- 🐧 **Entusiasta de Software Livre**
+- **Entusiasta do mundo open source:** instalação, configuração e personalização de plataforma de trabalho em ambiente Linux (Debian).
 
-</div>
-
-<br>
-
-## 🛠️ Tech Stack
+### Stacks
+Essas são algumas das tecnologias e ferramentas que costumo usar no meu dia a dia:
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,linux,postgres,git" height="55"/>
   &nbsp;&nbsp;
-  <img src="https://qgis.org/styleguide/visual/qgis-icon32.svg" height="48"/>
+  <figure style="display:inline-block; text-align:center; margin: 0 10px;">
+    <img src="https://skillicons.dev/icons?i=python" height="55" alt="Skill Icons"/>
+    <figcaption>Python</figcaption>
+  </figure>
+  &nbsp;&nbsp;
+    <figure style="display:inline-block; text-align:center; margin: 0 10px;">
+    <img src="https://skillicons.dev/icons?i=linux" height="55" alt="Skill Icons"/>
+    <figcaption>Linux</figcaption>
+  </figure>
+  &nbsp;&nbsp;
+    <figure style="display:inline-block; text-align:center; margin: 0 10px;">
+    <img src="https://skillicons.dev/icons?i=postgres" height="55" alt="Skill Icons"/>
+    <figcaption>PostgreSQL</figcaption>
+  </figure>
+  &nbsp;&nbsp;
+    <figure style="display:inline-block; text-align:center; margin: 0 10px;">
+    <img src="https://skillicons.dev/icons?i=git" height="55" alt="Skill Icons"/>
+    <figcaption>Git</figcaption>
+  </figure>
+  &nbsp;&nbsp;
+  <figure style="display:inline-block; text-align:center; margin: 0 10px;">
+    <img src="https://qgis.org/styleguide/visual/qgis-icon32.svg" height="48" alt="QGIS"/>
+    <figcaption>QGIS</figcaption>
+  </figure>
 </p>
 
-<br>
+### 📁 Projetos
+**[> Estudos Técnicos (Wiki)](https://github.com/marlon-vidalis/estudos-tecnicos/wiki)**
 
-## 📁 Projetos
 
-<div style="border-left: 4px solid #3fb950; background-color: #0d1117; padding: 18px 20px; border-radius: 0 10px 10px 0;">
+### 💬 Contato
 
-**[📖 Estudos Técnicos (Wiki)](https://github.com/marlon-vidalis/estudos-tecnicos/wiki)**
-Registro de anotações técnicas e estudos de geoprocessamento.
-
-</div>
-
-<br>
-
-## 💬 Contato
-
-<p align="center">
+<p align="">
   <a href="https://github.com/marlon-vidalis">
     <img src="https://img.shields.io/badge/GitHub-marlon--vidalis-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
   <a href="mailto:vidalis.marlon@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-vidalis.marlon-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
-</p>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e293b&height=100&section=footer"/>
