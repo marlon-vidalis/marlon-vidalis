@@ -1,12 +1,15 @@
 # Marlon Vidalis
 
-> Geografia (UFFS Erechim) · GIS/geoprocessamento · estudos autodidatas em Python e Linux.
+> Graduando de Geografia (UFFS Erechim) 
 
----
+> Estudos autodidatas em Python e Linux.
 
+> GIS/geoprocessamento
+
+### Projetos
 <div style="border-left: 10px solid #3776ab; background-color: #3776ab30; padding: 15px; margin: 15px 0; border-radius: 0 100px 0 0;">
 
-### 📚 Estudos Técnicos
+### Concluídos
 
 <details>
 <summary>Ver wiki completa</summary>
@@ -21,7 +24,7 @@ Wiki de estudos em programação, sistemas e geoprocessamento, organizada em mó
 
 <div style="border-left: 10px solid #228B22; background-color: #228B2230; padding: 15px; margin: 15px 0; border-radius: 0 0 0 0;">
 
-### 🌎 Foco atual
+### Em desenvolvimento
 
 <details>
 <summary>Ver detalhes</summary>
