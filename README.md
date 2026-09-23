@@ -21,23 +21,25 @@ Sou o Marlon, graduando em Geografia e trabalho com análise de dados geoespacia
 Essas são algumas das tecnologias e ferramentas que costumo usar no meu dia a dia:
 
 <p align="center">
-  &nbsp;&nbsp;
-  <figure style="display:inline-block; text-align:center; margin: 0 10px;">
-    <img src="https://skillicons.dev/icons?i=python" height="55" alt="Skill Icons"/>
-    <figcaption>Python</figcaption>
-  </figure><figure style="display:inline-block; text-align:center; margin: 0 10px;">
-    <img src="https://skillicons.dev/icons?i=linux" height="55" alt="Skill Icons"/>
-    <figcaption>Linux</figcaption>
-  </figure><figure style="display:inline-block; text-align:center; margin: 0 10px;">
-    <img src="https://skillicons.dev/icons?i=postgres" height="55" alt="Skill Icons"/>
-    <figcaption>PostgreSQL</figcaption>
-  </figure><figure style="display:inline-block; text-align:center; margin: 0 10px;">
-    <img src="https://skillicons.dev/icons?i=git" height="55" alt="Skill Icons"/>
-    <figcaption>Git</figcaption>
-  </figure><figure style="display:inline-block; text-align:center; margin: 0 10px;">
-    <img src="https://qgis.org/styleguide/visual/qgis-icon32.svg" height="48" alt="QGIS"/>
-    <figcaption>QGIS</figcaption>
-  </figure>
+<table>
+<tr>
+<td align="center" width="90">
+<img src="https://skillicons.dev/icons?i=python" height="50"/><br/>Python
+</td>
+<td align="center" width="90">
+<img src="https://skillicons.dev/icons?i=linux" height="50"/><br/>Linux
+</td>
+<td align="center" width="90">
+<img src="https://skillicons.dev/icons?i=postgres" height="50"/><br/>PostgreSQL
+</td>
+<td align="center" width="90">
+<img src="https://skillicons.dev/icons?i=git" height="50"/><br/>Git
+</td>
+<td align="center" width="90">
+<img src="https://qgis.org/styleguide/visual/qgis-icon32.svg" height="44"/><br/>QGIS
+</td>
+</tr>
+</table>
 </p>
 
 ### 📁 Projetos
@@ -50,6 +52,7 @@ Essas são algumas das tecnologias e ferramentas que costumo usar no meu dia a d
   <a href="https://github.com/marlon-vidalis">
     <img src="https://img.shields.io/badge/GitHub-marlon--vidalis-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
+  
   <a href="mailto:vidalis.marlon@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-vidalis.marlon-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
