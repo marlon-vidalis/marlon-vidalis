@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header" width="100%" style="margin: 0; padding: 0;"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=004d40,43a047,81c784&height=120&section=header" width="100%" style="margin: 0; padding: 0;"/>
 
 # Olá! Sou Marlon Vidalis 👋
 
@@ -74,4 +74,4 @@
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%" style="margin: 0; padding: 0;"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=004d40,43a047,81c784&height=100&section=footer" width="100%" style="margin: 0; padding: 0;"/>
