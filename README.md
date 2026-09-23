@@ -33,10 +33,10 @@
 ### 💻 Linguagens mais usadas
 
 <p align="left">
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=marlon-vidalis&layout=normal&langs_count=6&hide_border=true&theme=default"
-    alt="Linguagens mais usadas"
-  />
+ <img
+  src="https://github-readme-stats.shion.dev/api/top-langs/?username=marlon-vidalis&layout=normal&langs_count=6&hide_border=true&theme=default"
+  alt="Linguagens mais usadas"
+/>
 </p>
 
 ---
