@@ -8,8 +8,6 @@
   Sou <strong>Marlon</strong>, graduando em Geografia e trabalho com análise de dados geoespaciais.
 </p>
 
----
-
 ### 🎯 Áreas de foco e interesse
 
 - **Análise e interpretação de dados geoespaciais:** elaboração cartográfica, criação de mapas e análise espacial de dados;
@@ -17,8 +15,6 @@
 - **Geoprocessamento e Bancos de Dados Analíticos:** SIG (QGIS/ArcGIS), PostgreSQL/PostGIS e DuckDB;
 - **Python aplicado a geotecnologias:** processamento, análise e visualização de dados com Pandas, GeoPandas, Seaborn e Matplotlib;
 - **Open Source:** utilização, configuração e personalização de ambientes Linux, especialmente Debian.
-
----
 
 ### 🛠️ Stacks
 
@@ -28,24 +24,9 @@
   <img src="https://qgis.org/styleguide/visual/qgis-icon32.svg" height="40" valign="middle" title="QGIS" alt="QGIS" />
 </p>
 
----
-
-### 💻 Linguagens mais usadas
-
-<p align="left">
- <img
-  src="https://github-readme-stats.shion.dev/api/top-langs/?username=marlon-vidalis&layout=normal&langs_count=6&hide_border=true&theme=default"
-  alt="Linguagens mais usadas"
-/>
-</p>
-
----
-
 ### 📁 Projetos
 
 > **[Estudos Técnicos (Wiki)](https://github.com/marlon-vidalis/estudos-tecnicos/wiki)**
-
----
 
 ### 💬 Contato
 
