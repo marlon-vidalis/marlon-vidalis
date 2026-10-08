@@ -39,8 +39,7 @@ Trabalho na interseção entre território, dados e código — usando Python, S
 <td><a href="https://github.com/marlon-vidalis/desvendando_matematica">desvendando_matematica</a></td>
 <td>Estudos de matemática aplicada</td>
 <td><a href="https://python.org" target="_blank"><img src="https://skillicons.dev/icons?i=python&theme=dark" height="32" title="Python" alt="Python" /></a></td>
-<td><a href="https://streamlit.io" target="_blank"><img src="https://skillicons.dev/icons?i=streamlit&theme=dark" height="32" title="Streamlit" alt="Streamlit" /></a></td>
-</tr>
+<td><a href="https://streamlit.io" target="_blank"><img src="https://streamlit.io/images/brand/streamlit-mark-color.svg" height="20" title="Streamlit" alt="Streamlit" /></a></td></tr>
 <tr>
 <td><a href="https://github.com/marlon-vidalis/estudos-tecnicos">estudos-tecnicos</a></td>
 <td>Wiki de estudos técnicos em geotecnologia e dados</td>
