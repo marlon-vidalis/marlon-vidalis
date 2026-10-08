@@ -34,6 +34,9 @@ jobs:
 
           USERNAME = "marlon-vidalis"
           IGNORE = {"marlon-vidalis"}
+          DISPLAY_NAME_OVERRIDES = {
+              "desvendando_matematica": "Desvendando Matemática",
+          }
 
           # Ícones por linguagem e por framework/repositório.
           LANG_ICONS = {
@@ -104,6 +107,9 @@ jobs:
           rows = []
           for repo in sorted(repos, key=lambda item: item["name"]):
               name = repo["name"]
+              display_name = DISPLAY_NAME_OVERRIDES.get(
+                  name, re.sub(r"[\W_]+", " ", name, flags=re.UNICODE).title()
+              )
               if name in IGNORE:
                   continue
 
@@ -132,10 +138,10 @@ jobs:
 
               rows.append(
                   "<tr>\n"
-                  f'<td><a href="{url}">{name}</a></td>\n'
+                  f'<td><a href="{url}">{display_name}</a></td>\n'
                   f"<td>{description}</td>\n"
-                  f"<td>{''.join(lang_icons) or '—'}</td>\n"
-                  f"<td>{''.join(fw_icons) or '—'}</td>\n"
+                  f"<td align=\"center\">{''.join(lang_icons) or '—'}</td>\n"
+                  f"<td align=\"center\">{''.join(fw_icons) or '—'}</td>\n"
                   "</tr>"
               )
 
