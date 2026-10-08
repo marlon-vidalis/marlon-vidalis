@@ -2,8 +2,8 @@ name: Atualizar projetos públicos
 
 on:
   schedule:
-    - cron: "0 3 * * *"   # todo dia às 03:00 UTC
-  workflow_dispatch:        # permite rodar manualmente
+    - cron: "0 3 * * *"
+  workflow_dispatch:
 
 jobs:
   update:
@@ -13,25 +13,91 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Gerar lista de repos
+      - name: Gerar tabela de projetos
         run: |
           python3 << 'PYEOF'
           import urllib.request, json, re
 
-          url = "https://api.github.com/users/marlon-vidalis/repos?type=public&per_page=100"
-          req = urllib.request.Request(url, headers={"User-Agent": "readme-bot"})
-          repos = json.loads(urllib.request.urlopen(req).read())
+          USERNAME = "marlon-vidalis"
+          IGNORE   = {"marlon-vidalis"}
 
-          IGNORE = {"marlon-vidalis"}
+          # Ícones de linguagem (skillicons.dev)
+          LANG_ICONS = {
+              "Python":     ("https://skillicons.dev/icons?i=python&theme=dark",     "https://python.org",          "Python"),
+              "SQL":        ("https://skillicons.dev/icons?i=postgres&theme=dark",   "https://postgresql.org",      "SQL"),
+              "Shell":      None,  # ignorado
+              "Dockerfile": None,  # ignorado
+          }
+
+          # Ícones de framework — manuais, reservados por projeto
+          FRAMEWORK_ICONS = {
+              "desvendando_matematica": [
+                  ("https://skillicons.dev/icons?i=streamlit&theme=dark", "https://streamlit.io", "Streamlit"),
+              ],
+              "estudos-tecnicos": [
+                  ("https://skillicons.dev/icons?i=markdown&theme=dark", "https://daringfireball.net/projects/markdown/", "Markdown"),
+              ],
+              "media-renamed": [
+                  ("https://skillicons.dev/icons?i=gtk&theme=dark", "https://gtk.org", "GTK4"),
+              ],
+              # reservados — descomentar quando usar:
+              # "algum-repo": [
+              #     ("https://qgis.org/styleguide/visual/qgis-icon32.svg", "https://qgis.org", "QGIS"),
+              #     ("https://earthengine.google.com/static/images/earth-engine-logo.png", "https://earthengine.google.com", "Google Earth Engine"),
+              # ],
+          }
+
+          def fetch(url):
+              req = urllib.request.Request(url, headers={"User-Agent": "readme-bot"})
+              return json.loads(urllib.request.urlopen(req).read())
+
+          repos = fetch(f"https://api.github.com/users/{USERNAME}/repos?type=public&per_page=100")
 
           rows = []
           for r in sorted(repos, key=lambda x: x["name"]):
-              if r["name"] in IGNORE:
-                  continue
               name = r["name"]
-              desc = r["description"] or ""
-              url  = r["html_url"]
-              rows.append(f"| [{name}]({url}) | {desc} |")
+              if name in IGNORE:
+                  continue
+
+              desc    = r["description"] or ""
+              url     = r["html_url"]
+              langs   = fetch(f"https://api.github.com/repos/{USERNAME}/{name}/languages")
+              total   = sum(langs.values()) or 1
+
+              lang_icons = []
+              for lang, count in langs.items():
+                  pct = count / total * 100
+                  if pct < 5:
+                      continue
+                  icon_data = LANG_ICONS.get(lang)
+                  if icon_data is None:
+                      continue
+                  img_url, site, title = icon_data
+                  lang_icons.append(
+                      f'<a href="{site}" target="_blank">'
+                      f'<img src="{img_url}" height="32" title="{title}" alt="{title}" />'
+                      f'</a>'
+                  )
+
+              fw_icons = []
+              for img_url, site, title in FRAMEWORK_ICONS.get(name, []):
+                  fw_icons.append(
+                      f'<a href="{site}" target="_blank">'
+                      f'<img src="{img_url}" height="32" title="{title}" alt="{title}" />'
+                      f'</a>'
+                  )
+
+              lang_cell = " ".join(lang_icons) or "—"
+              fw_cell   = " ".join(fw_icons)   or "—"
+
+              rows.append(
+                  f"<tr>\n"
+                  f'<td><a href="{url}">{name}</a></td>\n'
+                  f"<td>{desc}</td>\n"
+                  f"<td>{lang_cell}</td>\n"
+                  f"<td>{fw_cell}</td>\n"
+                  f"</tr>"
+              )
 
           block = "\n".join(rows)
           marker_start = "<!-- REPOS_START -->"
@@ -40,14 +106,7 @@ jobs:
           with open("README.md", "r") as f:
               content = f.read()
 
-          new_section = (
-              f"{marker_start}\n"
-              f"### 📁 Todos os projetos públicos\n\n"
-              f"| Projeto | Descrição |\n"
-              f"|---|---|\n"
-              f"{block}\n"
-              f"{marker_end}"
-          )
+          new_section = f"{marker_start}\n{block}\n{marker_end}"
 
           content = re.sub(
               rf"{re.escape(marker_start)}.*?{re.escape(marker_end)}",
@@ -67,5 +126,5 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git diff --cached --quiet || git commit -m "chore: atualiza lista de projetos públicos"
+          git diff --cached --quiet || git commit -m "chore: atualiza projetos públicos"
           git push
