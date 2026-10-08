@@ -16,17 +16,16 @@
 - **Python aplicado a geotecnologias:** processamento, análise e visualização de dados com Pandas, GeoPandas, Seaborn e Matplotlib;
 - **Open Source:** utilização, configuração e personalização de ambientes Linux, especialmente Debian.
 
-### 🛠️ Stacks
+### 🛠️ Stacks por projeto
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=python,linux,postgres,git" height="48" valign="middle" />
-  &nbsp;&nbsp;
-  <img src="https://qgis.org/styleguide/visual/qgis-icon32.svg" height="40" valign="middle" title="QGIS" alt="QGIS" />
-</p>
+| Projeto | Descrição | Tecnologias |
+|---|---|---|
+| [desvendando_matematica](https://github.com/marlon-vidalis/desvendando_matematica) | Estudos de matemática aplicada | ![Python](https://skillicons.dev/icons?i=python&theme=dark) |
+| [estudos-tecnicos](https://github.com/marlon-vidalis/estudos-tecnicos) | Wiki de estudos técnicos em geotecnologia e dados | ![Python](https://skillicons.dev/icons?i=python&theme=dark) ![PostgreSQL](https://skillicons.dev/icons?i=postgres&theme=dark) ![Git](https://skillicons.dev/icons?i=git&theme=dark) |
+| [media-renamed](https://github.com/marlon-vidalis/media-renamed) | Renomeador de séries e filmes via TMDB — GTK4/Python | ![Python](https://skillicons.dev/icons?i=python&theme=dark) ![Linux](https://skillicons.dev/icons?i=linux&theme=dark) ![Git](https://skillicons.dev/icons?i=git&theme=dark) |
 
-### 📁 Projetos
-
-> **[Estudos Técnicos (Wiki)](https://github.com/marlon-vidalis/estudos-tecnicos/wiki)**
+<!-- REPOS_START -->
+<!-- REPOS_END -->
 
 ### 💬 Contato
 
