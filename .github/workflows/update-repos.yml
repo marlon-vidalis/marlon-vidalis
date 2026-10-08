@@ -32,7 +32,7 @@ jobs:
           # Ícones de framework — manuais, reservados por projeto
           FRAMEWORK_ICONS = {
               "desvendando_matematica": [
-                  ("https://skillicons.dev/icons?i=streamlit&theme=dark", "https://streamlit.io", "Streamlit"),
+                  ("https://streamlit.io/images/brand/streamlit-mark-color.svg", "https://streamlit.io", "Streamlit"),
               ],
               "estudos-tecnicos": [
                   ("https://skillicons.dev/icons?i=markdown&theme=dark", "https://daringfireball.net/projects/markdown/", "Markdown"),
