@@ -16,6 +16,11 @@ jobs:
           ref: main
           fetch-depth: 0
 
+      - name: Sincronizar com remote
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+
       - name: Gerar tabela de projetos
         run: |
           python3 << 'PYEOF'
@@ -24,24 +29,22 @@ jobs:
           USERNAME = "marlon-vidalis"
           IGNORE   = {"marlon-vidalis"}
 
-          # Ícones de linguagem (skillicons.dev)
           LANG_ICONS = {
-              "Python":     ("https://skillicons.dev/icons?i=python&theme=dark",     "https://python.org",          "Python"),
-              "SQL":        ("https://skillicons.dev/icons?i=postgres&theme=dark",   "https://postgresql.org",      "SQL"),
-              "Shell":      None,  # ignorado
-              "Dockerfile": None,  # ignorado
+              "Python":     ("https://skillicons.dev/icons?i=python&theme=light",   "https://python.org",     "Python"),
+              "SQL":        ("https://skillicons.dev/icons?i=postgres&theme=light", "https://postgresql.org", "SQL"),
+              "Shell":      None,
+              "Dockerfile": None,
           }
 
-          # Ícones de framework — manuais, reservados por projeto
           FRAMEWORK_ICONS = {
               "desvendando_matematica": [
                   ("https://streamlit.io/images/brand/streamlit-mark-color.svg", "https://streamlit.io", "Streamlit"),
               ],
               "estudos-tecnicos": [
-                  ("https://skillicons.dev/icons?i=markdown&theme=dark", "https://daringfireball.net/projects/markdown/", "Markdown"),
+                  ("https://skillicons.dev/icons?i=markdown&theme=light", "https://daringfireball.net/projects/markdown/", "Markdown"),
               ],
               "media-renamed": [
-                  ("https://skillicons.dev/icons?i=gtk&theme=dark", "https://gtk.org", "GTK4"),
+                  ("https://skillicons.dev/icons?i=gtk&theme=light", "https://gtk.org", "GTK4"),
               ],
               # reservados — descomentar quando usar:
               # "algum-repo": [
@@ -62,18 +65,17 @@ jobs:
               if name in IGNORE:
                   continue
 
-              desc    = r["description"] or ""
-              url     = r["html_url"]
-              langs   = fetch(f"https://api.github.com/repos/{USERNAME}/{name}/languages")
-              total   = sum(langs.values()) or 1
+              desc  = r["description"] or ""
+              url   = r["html_url"]
+              langs = fetch(f"https://api.github.com/repos/{USERNAME}/{name}/languages")
+              total = sum(langs.values()) or 1
 
               lang_icons = []
               for lang, count in langs.items():
-                  pct = count / total * 100
-                  if pct < 5:
+                  if count / total * 100 < 5:
                       continue
                   icon_data = LANG_ICONS.get(lang)
-                  if icon_data is None:
+                  if not icon_data:
                       continue
                   img_url, site, title = icon_data
                   lang_icons.append(
@@ -90,15 +92,12 @@ jobs:
                       f'</a>'
                   )
 
-              lang_cell = " ".join(lang_icons) or "—"
-              fw_cell   = " ".join(fw_icons)   or "—"
-
               rows.append(
                   f"<tr>\n"
                   f'<td><a href="{url}">{name}</a></td>\n'
                   f"<td>{desc}</td>\n"
-                  f"<td>{lang_cell}</td>\n"
-                  f"<td>{fw_cell}</td>\n"
+                  f"<td>{''.join(lang_icons) or '—'}</td>\n"
+                  f"<td>{''.join(fw_icons) or '—'}</td>\n"
                   f"</tr>"
               )
 
@@ -110,7 +109,6 @@ jobs:
               content = f.read()
 
           new_section = f"{marker_start}\n{block}\n{marker_end}"
-
           content = re.sub(
               rf"{re.escape(marker_start)}.*?{re.escape(marker_end)}",
               new_section,
@@ -128,8 +126,6 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git fetch origin main
-          git reset --hard origin/main
           git add README.md
           git diff --cached --quiet || git commit -m "chore: atualiza projetos públicos"
           git push
