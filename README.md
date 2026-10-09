@@ -38,19 +38,14 @@ Trabalho na interseção entre território, dados e código — usando Python, S
 <tr>
 <td><a href="https://github.com/marlon-vidalis/desvendando_matematica">Desvendando Matemática</a></td>
 <td>Estudos de matemática aplicada</td>
-<td><a href="https://python.org" target="_blank"><img src="https://skillicons.dev/icons?i=python&theme=dark" height="32" title="Python" alt="Python" /></a></td>
-<td><a href="https://streamlit.io" target="_blank"><img src="https://streamlit.io/images/brand/streamlit-mark-color.svg" height="20" title="Streamlit" alt="Streamlit" /></a></td></tr>
-<tr>
-<td><a href="https://github.com/marlon-vidalis/estudos-tecnicos">estudos-tecnicos</a></td>
-<td>Wiki de estudos técnicos em geotecnologia e dados</td>
-<td>—</td>
-<td><a href="https://daringfireball.net/projects/markdown/" target="_blank"><img src="https://skillicons.dev/icons?i=markdown&theme=dark" height="32" title="Markdown" alt="Markdown" /></a></td>
+<td align="center"><a href="https://python.org" target="_blank"><img src="https://skillicons.dev/icons?i=python&theme=light" height="32" title="Python" alt="Python" /></a></td>
+<td align="center"><a href="https://streamlit.io" target="_blank"><img src="https://streamlit.io/images/brand/streamlit-mark-color.svg" height="32" title="Streamlit" alt="Streamlit" /></a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/marlon-vidalis/media-renamed">Media Renamed</a></td>
 <td>Renomeador de séries e filmes via TMDB — GTK4/Python</td>
-<td><a href="https://python.org" target="_blank"><img src="https://skillicons.dev/icons?i=python&theme=dark" height="32" title="Python" alt="Python" /></a></td>
-<td><a href="https://gtk.org" target="_blank"><img src="https://skillicons.dev/icons?i=gtk&theme=dark" height="32" title="GTK4" alt="GTK4" /></a></td>
+<td align="center"><a href="https://python.org" target="_blank"><img src="https://skillicons.dev/icons?i=python&theme=light" height="32" title="Python" alt="Python" /></a></td>
+<td align="center"><a href="https://gtk.org" target="_blank"><img src="https://skillicons.dev/icons?i=gtk&theme=light" height="32" title="GTK4" alt="GTK4" /></a></td>
 </tr>
 <!-- REPOS_END -->
 
